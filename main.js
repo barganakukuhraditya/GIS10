@@ -50,7 +50,7 @@ navigator.geolocation.getCurrentPosition(
     // Pindahkan peta ke lokasi pengguna
     const userCoordinates = fromLonLat([longitude, latitude]);
     map.getView().setCenter(userCoordinates);
-    map.getView().setZoom(15);
+    map.getView().setZoom(20);
 
     // Tambahkan marker di lokasi pengguna
     const marker = new Feature({
